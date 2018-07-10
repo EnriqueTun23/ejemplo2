@@ -1,38 +1,93 @@
 
-<nav>
-    <div class="nav-wrapper z-depth-3">
-        <a href="#!" class="brand-logo">Logo</a>
+<nav class="green darken-1 z-depth-4">
+    <div class="nav-wrapper ">
+        <a href="#!" class="brand-logo"><img src="assets/img/logo.png" width="65" height="65"></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse">
             <i class="material-icons">menu</i>
         </a>
-        <ul class="right hide-on-med-and-down">
+    <!--    <ul class="right hide-on-med-and-down"> -->
+
+        <ul class="dropdown-content" id="dropdown1">
             <li>
-                <a href="sass.html">Sass</a>
+                <a href="#!">one</a>
             </li>
             <li>
-                <a href="badges.html">Components</a>
+                <a href="#!">two</a>
             </li>
+            
             <li>
-                <a href="collapsible.html">Javascript</a>
-            </li>
-            <li>
-                <a href="mobile.html">Mobile</a>
+                <a href="#!">three</a>
             </li>
         </ul>
-        <ul class="side-nav" id="mobile-demo">
+                <ul class="dropdown-content" id="dropdown2">
+                    <li>
+                        <a href="#!">one</a>
+                    </li>
+                    <li>
+                        <a href="#!">two</a>
+                    </li>
+                
+                    <li>
+                        <a href="#!">three</a>
+                    </li>
+                </ul>
+        <ul class="right hide-on-med-and-down">
+                <li>
+                    <div class="center row">
+                        <div class="col s12 ">
+                            <div class="row" id="topbarsearch">
+                                <div class="input-field col s6 s12 ">
+                                    <i class="lime-text text-accent-2 material-icons prefix">search</i>
+                                    <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete lime-text text-accent-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
             <li>
-                <a href="sass.html">Sass</a>
+                <a class="dropdown-button lime-text text-accent-2" href="#!" data-activates="dropdown2">
+                    Menu2 <i class="material-icons right">arrow_drop_down</i>
+                </a>
             </li>
             <li>
-                <a href="badges.html">Components</a>
+                <a href="#" class="lime-text text-accent-2">Home</a>
             </li>
             <li>
-                <a href="collapsible.html">Javascript</a>
+                <a href="#" class="lime-text text-accent-2">Link</a>
+            </li>
+            
+ 
+        </ul>
+ 
+        <ul class="side-nav green darken-1 " id="mobile-demo">
+            <li>
+                <a class="dropdown-button lime-text text-accent-2" href="#!" data-activates="dropdown1">
+                        Menu2
+                    <i class="material-icons right">arrow_drop_down</i>
+                </a>
             </li>
             <li>
-                <a href="mobile.html">Mobile</a>
+                <a href="#" class="lime-text text-accent-2">Home</a>
             </li>
+            <li>
+                <a href="#" class="lime-text text-accent-2">Link</a>
+            </li>
+            <li>
+                <div class="center row">
+                    <div class="col s12 ">
+                         <div class="row" id="topbarsearch">
+                            <div class="input-field col s6 s12 ">
+                                <i class="lime-text text-accent-2 material-icons prefix">search</i>
+                                <input type="text" placeholder="search" id="autocomplete-input" class="autocomplete lime-text text-accent-2">
+                           </div>
+                        </div>
+                            </div>
+                    </div>
+            </li>
+                
+            
         </ul>
     </div>
+
 </nav>
 
